@@ -13,19 +13,31 @@ class Todo extends Component {
             ]
         }
     }
-        render()
-        {
-            return (
-                <div>
-                    <h2>To Do List</h2>
-                    <ol>
-                        {this.state.tasks.map((task, index) => (
-                            <li key={index}>{task}</li>
-                        ))}
-                    </ol>
-                </div>
-            );
-        }
+
+    componentDidMount() {
+        setTimeout(() => {
+            this.setState({
+                tasks: [
+                    'Ala', 'Ma', 'Kota'
+                ]
+            });
+        }, 5000);
+
     }
+
+    render() {
+        return (
+            <div>
+                <h2>To Do List</h2>
+                <ol>
+                    {this.state.tasks.map(((mojElement, index) => {
+                            return <li key={index}>{mojElement}</li>
+                        }
+                    ))}
+                </ol>
+            </div>
+        );
+    }
+}
 
 export default Todo;
