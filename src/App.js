@@ -4,6 +4,7 @@ import Dashboard from './components/Dashboard'
 import './App.css';
 import Header from './components/Header'
 import Todo from './components/Todo'
+import Form from './components/form'
 
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
                     <Route exact path="/" component={Dashboard}/>
                     <Route path="/todo" component={Todo}/>
                     <Route path="/counter" component={null}/>
+                    <Route path="/form" component={Form}/>
 
                 </div>
             </Router>

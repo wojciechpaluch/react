@@ -12,6 +12,7 @@ class Header extends Component {
                     <li><Link to="/">Dashboard</Link></li>
                     <li><Link to="/todo">To do</Link></li>
                     <li><Link to="/counter">Counter</Link></li>
+                    <li><Link to="/form">Form</Link></li>
                 </ul>
                 <Button label="OK!" />
             </div>
