@@ -4,22 +4,36 @@ class Users extends Component {
 
     constructor(props) {
         super(props);
-        this.state = [{
-            name: 'Ala'
-        }, {
-            name: 'Ola'
-        }, {
-            name: 'Jola'
-        }];
+        this.fetchData = this.fetchData.bind(this);
+        this.state = {
+            users: [{
+                name: 'Ala'
+            }, {
+                name: 'Ola'
+            }, {
+                name: 'Jola'
+            }]
+        }
     }
 
+
+    fetchData() {
+        fetch('https://jsonplaceholder.typicode.com/users')
+            .then(response => {
+                return response.json();
+            })
+            .then(data => {
+                this.setState({users: data});
+            })
+    }
 
     render() {
         return (
             <div>
                 <h1> Users </h1>
-                {this.state.map((users, index) => (
-                    <div key={index}>{users.name}</div>
+                <button onClick={this.fetchData}>Pobierz dane</button>
+                {this.state.users.map((user, index) => (
+                    <div key={index}>{user.name}</div>
                 ))}
             </div>
         );
