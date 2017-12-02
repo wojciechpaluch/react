@@ -5,6 +5,7 @@ import './App.css';
 import Header from './components/Header'
 import Todo from './components/Todo'
 import Form from './components/form'
+import Users from './components/Users'
 
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
                     <Route path="/todo" component={Todo}/>
                     <Route path="/counter" component={null}/>
                     <Route path="/form" component={Form}/>
+                    <Route path="/Users" component={Users}/>
 
                 </div>
             </Router>
