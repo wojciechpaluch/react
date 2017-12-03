@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 
+const style = {
+    textDecoration: 'line-through'
+}
 
 class Task extends Component {
 
@@ -8,12 +11,23 @@ class Task extends Component {
         // this.checkbox = this.checkbox.bind(this);
 
         this.state = {
-            task: '',
+            isCompleted: false
         }
     }
 
+    handleChecked = () => {
+        this.setState({
+            isCompleted: !this.state.isCompleted
+        })
+    }
+
     render() {
-        return <div><input type="checkbox"/>{this.props.task}</div>
+        return (
+            <div style={this.state.isCompleted ? style : null}>
+                <input onClick={this.handleChecked} type="checkbox"/>
+                {this.props.task}
+            </div>
+        )
     }
 
 }
