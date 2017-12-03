@@ -24,8 +24,8 @@ class Task extends Component {
     render() {
         return (
             <div style={this.state.isCompleted ? style : null}>
-                <input onClick={this.handleChecked} type="checkbox"/>
-                {this.props.task}
+               <label> <input onClick={this.handleChecked} type="checkbox"/>
+                   {this.props.task}</label>
             </div>
         )
     }
