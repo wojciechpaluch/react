@@ -20,16 +20,21 @@ class Users extends Component {
 
     fetchData() {
         this.setState({loading: true});
-        fetch('https://jsonplaceholder.typicode.com/users')
-            .then(response => {
-                return response.json();
-            })
-            .then(data => {
-                this.setState({loading: false, users: data});
-            })
+
+        setTimeout(() => {
+                fetch('https://jsonplaceholder.typicode.com/users')
+                    .then(response => {
+                        return response.json()
+                    })
+                    .then(data => {
+                        this.setState({loading: false, users: data});
+                    })
+            }, 3000
+        )
     }
 
-    renderIndicator(){
+
+    renderIndicator() {
         if (this.state.loading) {
             return <div style={{color: 'red', fontSize: 15}}> Loading...</div>;
         }
