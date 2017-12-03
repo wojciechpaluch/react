@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b091028-5481-4449-9eb9-325c1dadfd62" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Tasks/Task.js" afterPath="$PROJECT_DIR$/src/components/Tasks/Task.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Tasks/Container.js" afterPath="$PROJECT_DIR$/src/components/Tasks/Container.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="Todo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Todo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
+            <state relative-caret-position="54">
               <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding />
             </state>
@@ -70,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Container.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Container.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Tasks/Container.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="39" column="48" lean-forward="false" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="48" />
+            <state relative-caret-position="432">
+              <caret line="48" column="95" lean-forward="false" selection-start-line="48" selection-start-column="95" selection-end-line="48" selection-end-column="95" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -82,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Task.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Tasks/Task.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="486">
@@ -147,8 +147,8 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Header.js" />
         <option value="$PROJECT_DIR$/src/components/Tasks/task.js" />
-        <option value="$PROJECT_DIR$/src/components/Tasks/Container.js" />
         <option value="$PROJECT_DIR$/src/components/Tasks/Task.js" />
+        <option value="$PROJECT_DIR$/src/components/Tasks/Container.js" />
       </list>
     </option>
   </component>
@@ -248,12 +248,12 @@
       <updated>1511608935136</updated>
       <workItem from="1511608936499" duration="5458000" />
       <workItem from="1512216232871" duration="3355000" />
-      <workItem from="1512285413677" duration="5532000" />
+      <workItem from="1512285413677" duration="9067000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14345000" />
+    <option name="totallyTimeSpent" value="17880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="236" y="170" width="1857" height="1092" extended-state="6" />
@@ -417,16 +417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -434,14 +424,6 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Todo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -461,20 +443,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="65" lean-forward="false" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Tasks/Container.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Todo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="39" column="48" lean-forward="false" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="48" />
+        <state relative-caret-position="54">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="65" lean-forward="false" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -486,6 +476,16 @@
         <state relative-caret-position="486">
           <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Tasks/Container.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="48" column="95" lean-forward="false" selection-start-line="48" selection-start-column="95" selection-end-line="48" selection-end-column="95" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
