@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import Button from './button/index';
+import { render } from 'react-dom';
+import Button from 'material-ui/Button';
 
 
 
@@ -17,7 +18,7 @@ class Header extends Component {
                     <li><Link to="/users">Users</Link></li>
                     <li><Link to="/tasks">Tasks</Link></li>
                 </ul>
-                <Button label="OK!" />
+                <Button raised color="primary">OK!</Button>
             </div>
 
         )
